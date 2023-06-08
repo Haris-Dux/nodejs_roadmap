@@ -5,7 +5,7 @@ import { connectDB } from "./data/database.js";
 import {config} from "dotenv";
 import cookieParser from "cookie-parser";
 import cors from "cors"
-import { model } from "mongoose";
+
 
 const app = express();
 config({
